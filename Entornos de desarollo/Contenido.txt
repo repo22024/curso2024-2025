@@ -1,35 +1,46 @@
-Módulo 1: Introducción al Desarrollo de Software
-Semana 1: Conceptos Básicos
-¿Qué es el desarrollo de software?
-Ciclo de vida del software (modelos en cascada, ágil, DevOps)
-Paradigmas de programación (imperativo, orientado a objetos, funcional)
-Lenguajes de programación (introducción a los más populares)
-Herramientas esenciales (editores de código, depuradores)
-Semana 2: Entornos de Desarrollo Integrados (IDEs)
-¿Qué es un IDE?
-Comparación de los IDEs más populares (Visual Studio, Eclipse, PyCharm, etc.)
-Configuración básica de un IDE
-Características clave de un IDE (compilación, depuración, refactorización)
-Módulo 2: Entornos de Desarrollo Específicos
-Semana 3: Desarrollo Web
-Tecnologías web front-end (HTML, CSS, JavaScript)
-Tecnologías web back-end (PHP, Python, Node.js)
-Frameworks web populares (React, Angular, Django, Laravel)
-Entornos de desarrollo para web (Visual Studio Code, Sublime Text)
-Semana 4: Desarrollo Móvil
-Plataformas móviles (iOS, Android)
-Herramientas de desarrollo móvil (Xcode, Android Studio)
-Frameworks de desarrollo móvil (React Native, Flutter)
-Semana 5: Desarrollo de Juegos
-Motores de juegos (Unity, Unreal Engine)
-Lenguajes de scripting para juegos (C#, C++)
-Desarrollo de juegos 2D y 3D
-Módulo 3: Control de Versiones y Colaboración
-Semana 6: Git y GitHub
-Conceptos básicos de control de versiones
-Instalación y configuración de Git
-Flujos de trabajo comunes (GitFlow)
-Uso de GitHub para colaboración
-Semana 7: Herramientas de Colaboración
-Plataformas de colaboración (Trello, Jira)
-Prácticas ágiles (Scrum, Kanban)
+# Contenido General del Módulo de Entornos de Desarrollo Multiplataforma
+
+## Módulo 1: Introducción al Desarrollo de Software
+
+### Conceptos Básicos
+- **¿Qué es el desarrollo de software?**
+- **Ciclo de vida del software** (modelos en cascada, ágil, DevOps)
+- **Paradigmas de programación** (imperativo, orientado a objetos, funcional)
+- **Lenguajes de programación** (introducción a los más populares)
+- **Herramientas esenciales** (editores de código, depuradores)
+
+### Entornos de Desarrollo Integrados (IDEs)
+- **¿Qué es un IDE?**
+- **Comparación de los IDEs más populares** (Visual Studio, Eclipse, PyCharm, etc.)
+- **Configuración básica de un IDE**
+- **Características clave de un IDE** (compilación, depuración, refactorización)
+
+## Módulo 2: Entornos de Desarrollo Específicos
+
+### Desarrollo Web
+- **Tecnologías web front-end** (HTML, CSS, JavaScript)
+- **Tecnologías web back-end** (PHP, Python, Node.js)
+- **Frameworks web populares** (React, Angular, Django, Laravel)
+- **Entornos de desarrollo para web** (Visual Studio Code, Sublime Text)
+
+### Desarrollo Móvil
+- **Plataformas móviles** (iOS, Android)
+- **Herramientas de desarrollo móvil** (Xcode, Android Studio)
+- **Frameworks de desarrollo móvil** (React Native, Flutter)
+
+### Desarrollo de Juegos
+- **Motores de juegos** (Unity, Unreal Engine)
+- **Lenguajes de scripting para juegos** (C#, C++)
+- **Desarrollo de juegos 2D y 3D**
+
+## Módulo 3: Control de Versiones y Colaboración
+
+### Git y GitHub
+- **Conceptos básicos de control de versiones**
+- **Instalación y configuración de Git**
+- **Flujos de trabajo comunes** (GitFlow)
+- **Uso de GitHub para colaboración**
+
+### Herramientas de Colaboración
+- **Plataformas de colaboración** (Trello, Jira)
+- **Prácticas ágiles** (Scrum, Kanban)
