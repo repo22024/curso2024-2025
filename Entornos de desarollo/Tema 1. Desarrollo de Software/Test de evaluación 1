@@ -1,0 +1,96 @@
+Test de Evaluación - Ciclo de Vida del Software
+1. ¿Qué representa el ciclo de vida del software?
+a) Un conjunto de fases desordenadas.
+b) Un proceso para guiar el desarrollo de un sistema desde su concepción.
+c) Un marco teórico sin aplicación práctica.
+d) Un proceso estático sin posibilidad de mejoras.
+
+2. ¿Cuál de las siguientes NO es una fase del ciclo de vida del software?
+a) Despliegue y Entrega.
+b) Diseño del Hardware.
+c) Implementación y Desarrollo.
+d) Pruebas de Software.
+
+3. ¿Qué profesionales están involucrados en la fase de Planificación del ciclo de vida del software?
+a) Gerente de proyecto.
+b) Stakeholders.
+c) Desarrolladores.
+d) Todos los anteriores.
+
+4. ¿Qué herramientas se recomiendan para la gestión de proyectos durante la fase de Planificación?
+a) Jira.
+b) Asana.
+c) Trello.
+d) Todas las anteriores.
+
+5. ¿Cuál es el objetivo de la fase de Análisis de Requerimientos?
+a) Definir la arquitectura del sistema.
+b) Detallar las necesidades y expectativas del software.
+c) Realizar pruebas de aceptación.
+d) Implementar el código fuente.
+
+6. ¿Quiénes validan que los requisitos satisfacen las necesidades del negocio durante el Análisis de Requerimientos?
+a) Analistas de negocio.
+b) Desarrolladores.
+c) Usuarios finales y clientes.
+d) Todos los anteriores.
+
+7. ¿Qué profesionales participan en la fase de Diseño del Sistema?
+a) Arquitectos de software.
+b) Desarrolladores senior.
+c) Ingenieros de seguridad y calidad.
+d) Todas las anteriores.
+
+8. ¿Cuáles son herramientas recomendadas para el diseño de componentes durante la fase de Diseño del Sistema?
+a) Draw.io.
+b) Enterprise Architect.
+c) MySQL Workbench.
+d) Todas las anteriores.
+
+9. ¿En qué consiste la fase de Implementación y Desarrollo?
+a) Programación y codificación del software.
+b) Diseño detallado de componentes.
+c) Validación de requisitos.
+d) Todas las anteriores.
+
+10. ¿Qué profesionales participan en las Pruebas de Software?
+a) Ingenieros de pruebas (QA).
+b) Desarrolladores.
+c) Usuarios finales.
+d) Todas las anteriores.
+
+11. ¿Cuál es el propósito de las pruebas automatizadas en el proceso de pruebas de software?
+a) Identificar y corregir errores.
+b) Validar el comportamiento de funciones individuales.
+c) Detectar tempranamente problemas en la interfaz y funcionalidades.
+d) Todas las anteriores.
+
+12. ¿Qué implica la fase de Despliegue y Entrega del software?
+a) Programación y codificación del software.
+b) Puesta en marcha del software en el entorno de producción.
+c) Validación de requisitos.
+d) Todas las anteriores.
+
+13. ¿Qué profesionales gestionan el despliegue en producción y la infraestructura durante el Despliegue y Entrega?
+a) Ingenieros de DevOps.
+b) Soporte técnico.
+c) Desarrolladores.
+d) Todos los anteriores.
+
+14. ¿Qué herramienta se recomienda para la gestión de pruebas y casos de prueba en el proceso de Pruebas de Software?
+a) Selenium.
+b) JUnit.
+c) Postman.
+d) Todas las anteriores.
+
+15. ¿Cuál es la importancia de la fase de Mantenimiento y Actualizaciones en el ciclo de vida del software?
+a) Garantizar la entrega de productos de calidad.
+b) Mejorar continuamente el sistema.
+c) Corregir errores y agregar nuevas funcionalidades.
+d) Todas las anteriores.
+
+Preguntas de respuesta única:
+1, 2, 3, 5, 6, 8, 9, 10, 11, 12, 14, 15
+
+Preguntas de múltiple respuesta:
+4, 7, 13
