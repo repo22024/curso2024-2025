@@ -1,0 +1,107 @@
+Preguntas de Evaluación
+1. ¿Qué es un modelo de datos?
+a) Un sistema para diseñar interfaces de usuario.
+b) Una representación abstracta de cómo se estructuran y manipulan los datos.
+c) Una técnica para almacenar documentos físicos.
+d) Un diagrama utilizado para modelar flujos de trabajo.
+
+
+2. ¿Cuál es el objetivo principal del modelo conceptual?
+a) Definir las tablas y sus relaciones.
+b) Proporcionar una representación técnica de los datos.
+c) Comunicar qué datos se deben almacenar y cómo se relacionan.
+d) Especificar claves primarias y foráneas.
+
+
+3. ¿Qué símbolo representa una entidad en un modelo conceptual?
+a) Óvalo.
+b) Rectángulo.
+c) Rombo.
+d) Línea con notación de cardinalidad.
+
+
+4. En un modelo conceptual, un atributo se representa como:
+a) Una línea.
+b) Un óvalo.
+c) Un rectángulo.
+d) Un rombo.
+
+
+5. ¿Qué significa la cardinalidad 1
+en un modelo conceptual?
+a) Una entidad tiene exactamente una instancia asociada.
+b) Una entidad puede tener muchas instancias asociadas con otra.
+c) Una entidad no tiene relación con otras entidades.
+d) Una relación es opcional.
+
+
+6. ¿Qué representa una tabla en un modelo relacional?
+a) Una clave foránea.
+b) Una relación lógica entre tablas.
+c) Una entidad o relación del modelo conceptual.
+d) Una instancia única de datos.
+
+
+7. ¿Cuál es el propósito de una clave primaria (PK)?
+a) Identificar de forma única cada fila en una tabla.
+b) Enlazar dos tablas diferentes.
+c) Almacenar múltiples valores en una sola columna.
+d) Crear un índice en la tabla.
+
+
+8. ¿Qué elemento del modelo relacional describe un atributo?
+a) Una fila.
+b) Una columna.
+c) Una tabla.
+d) Una clave primaria.
+
+
+9. ¿Qué herramienta se utiliza comúnmente para diseñar modelos conceptuales?
+a) Microsoft Excel.
+b) Lucidchart.
+c) Adobe Photoshop.
+d) AWS Cloud9.
+
+
+10. ¿Qué relación describe correctamente un modelo 1
+?
+a) Un cliente puede realizar muchas compras.
+b) Muchos productos pueden tener muchos proveedores.
+c) Una tienda tiene exactamente un gerente.
+d) Un cliente no puede realizar compras.
+
+
+11. En un diagrama conceptual, los nombres de las entidades se deben escribir en:
+a) Minúsculas.
+b) Mayúsculas.
+c) Negrita y minúsculas.
+d) Letras cursivas.
+
+
+12. En un modelo relacional, una clave foránea (FK):
+a) Es única en toda la base de datos.
+b) Referencia la clave primaria de otra tabla.
+c) Define el nombre de una columna.
+d) Representa una relación directa entre atributos.
+
+
+13. ¿Qué elemento conecta las claves primarias y foráneas en un modelo relacional?
+a) Relaciones lógicas.
+b) Claves compuestas.
+c) Restricciones de cardinalidad.
+d) Notación UML.
+
+
+14. ¿Qué herramienta es específica para el diseño de bases de datos relacionales?
+a) Microsoft Visio.
+b) MySQL Workbench.
+c) Draw.io.
+d) Canva.
+
+
+15. En un modelo conceptual, ¿qué tipo de notación se usa para la cardinalidad?
+a) Rango de valores.
+b) Relación 1:1, 1, N
+c) Subrayado en negrita.
+d) Identificador único en un círculo.
+
