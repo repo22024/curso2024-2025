@@ -1,0 +1,30 @@
+Diseño del modelo de datos (Conceptual) para  la Gestión de Casos en un Despacho de Abogados
+
+Se solicita diseñar una base de datos relacional para gestionar la información asociada 
+a los casos legales que maneja un despacho de abogados. 
+La base de datos debe permitir organizar y relacionar los datos de manera eficiente, garantizando unicidad, integridad y trazabilidad.
+Casos:
+Cada caso será identificado de forma única mediante un número de expediente.
+Un caso tendrá asociado únicamente un cliente responsable.
+Para cada caso, se deberá registrar:
+Período: Fecha de inicio y fecha de finalización.
+Estado: Ejemplo de estados posibles incluyen: "En trámite", "Archivado", entre otros.
+
+Clientes:
+Los clientes serán las personas o entidades asociadas a los casos.
+De cada cliente se registrará:
+DNI o Identificación Fiscal (único para cada cliente).
+Nombre completo.
+Dirección (incluyendo detalles como calle, ciudad y código postal).
+Otros datos relevantes según las necesidades del despacho.
+Un cliente puede estar asociado a uno o varios casos.
+
+Procuradores:
+Los procuradores son profesionales asignados a los casos para llevar su representación.
+Cada caso puede ser atendido por uno o varios procuradores.
+De cada procurador se deberá almacenar:
+Identificación única (por ejemplo, número de colegiado).
+Nombre completo.
+Datos de contacto (teléfono, correo electrónico, etc.).
+Un procurador puede estar asignado a uno o varios casos.
+
