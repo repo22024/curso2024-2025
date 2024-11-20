@@ -1,8 +1,10 @@
+
 Diseño del modelo de datos (Conceptual) para  la Gestión de Casos en un Despacho de Abogados
 
 Se solicita diseñar una base de datos relacional para gestionar la información asociada 
 a los casos legales que maneja un despacho de abogados. 
 La base de datos debe permitir organizar y relacionar los datos de manera eficiente, garantizando unicidad, integridad y trazabilidad.
+
 Casos:
 Cada caso será identificado de forma única mediante un número de expediente.
 Un caso tendrá asociado únicamente un cliente responsable.
@@ -27,4 +29,39 @@ Identificación única (por ejemplo, número de colegiado).
 Nombre completo.
 Datos de contacto (teléfono, correo electrónico, etc.).
 Un procurador puede estar asignado a uno o varios casos.
+_____________________________________________________________
 
+Diseño del modelo de datos (Conceptual) para la Gestión de Zoológicos y Especies Animales
+
+Se solicita el diseño de una base de datos relacional para gestionar la información de zoológicos y las especies animales que albergan en distintas partes del mundo. El objetivo es garantizar la correcta organización, unicidad e integridad de los datos, facilitando consultas eficientes y cumpliendo con estándares internacionales de gestión de datos.
+
+Zoológicos
+Cada zoológico estará identificado de forma única mediante un nombre y ubicación específica.
+De cada zoológico se deberá almacenar:
+Nombre del zoológico.
+Ciudad en la que se encuentra.
+País donde está ubicado.
+Extensión: Indicada en metros cuadrados o hectáreas.
+Presupuesto anual: Fondos destinados al sostenimiento y operación del zoológico.
+
+Especies Animales
+Las especies serán clasificadas y almacenadas como categoría principal para los animales.
+De cada especie se deberá registrar:
+Nombre científico: Denominación formal de la especie.
+Nombre vulgar: Término común usado para identificar la especie.
+Estado de conservación: Indicador de si la especie está en peligro de extinción o no, según clasificaciones reconocidas.
+
+Animales
+Los animales serán identificados individualmente y estarán relacionados con una especie y un zoológico.
+Para cada animal se registrará:
+Número de identificación único.
+Nombre vulgar y científico (heredado de la especie).
+Sexo: Clasificado como macho, hembra u otro.
+Año de nacimiento: Para estimar su edad y condición.
+País de origen: Lugar de nacimiento o captura.
+Continente de procedencia: Para clasificaciones geográficas.
+Los animales estarán asociados a un zoológico y a una especie.
+
+Relaciones
+Existe una relación uno a muchos entre zoológicos y animales: un zoológico puede albergar varios animales, pero cada animal pertenece a un único zoológico.
+Existe una relación uno a muchos entre especies y animales: una especie puede tener múltiples animales registrados, pero cada animal pertenece a una única especie.
