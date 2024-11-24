@@ -1,6 +1,0 @@
-## Práctica 1
-Un gimnasio necesita gestionar sus operaciones. Los datos incluyen:
-
-  Clientes: nombre, fecha de nacimiento, correo electrónico.
-  Clases: tipo de clase, horario, duración.
-  Entrenadores: nombre, especialidad. Cada cliente puede inscribirse en varias clases, y cada clase puede ser impartida por varios entrenadores.
