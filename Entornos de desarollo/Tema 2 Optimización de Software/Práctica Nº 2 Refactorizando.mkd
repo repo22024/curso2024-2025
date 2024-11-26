@@ -1,0 +1,54 @@
+# 🛠️ Refactorización en Eclipse
+
+## 1️⃣ Renombrar Clases, Métodos y Variables
+
+### ¿Para qué sirve?
+Renombrar elementos del código ayuda a mejorar su claridad y mantenimiento. Por ejemplo, `calculadora` debería respetar las convenciones Java y llamarse `CalculadoraMoneda`.
+
+### Pasos:
+#### Renombrar la clase `calculadora`:
+1. Haz clic derecho sobre el archivo `calculadora.java` en el proyecto.
+2. Selecciona `Refactor > Rename` (o usa `Shift + Alt + R`).
+3. Cambia el nombre a `CalculadoraMoneda` y presiona `Enter`.
+4. Eclipse actualizará automáticamente todas las referencias a esta clase.
+
+#### Renombrar el método `convertToEuros`:
+1. Haz clic derecho sobre el método.
+2. Selecciona `Refactor > Rename`.
+3. Cambia el nombre a `convertirAEuros` (para seguir un formato español consistente).
+
+## 2️⃣ Extraer Constantes
+
+### ¿Para qué sirve?
+Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) al definirlos como constantes globales.
+
+### Pasos:
+1. Selecciona el valor `0.85` en el método `convertToEuros`.
+2. Haz clic derecho y elige `Refactor > Extract Constant`.
+3. Asigna un nombre como `TASA_CONVERSION_EUROS`.
+4. Repite para las otras tasas (`0.75` y `110.0`).
+
+### Resultado nos tiene que visualizar lo siguiente:
+```java
+private static final double TASA_CONVERSION_EUROS = 0.85;
+private static final double TASA_CONVERSION_LIBRAS = 0.75;
+private static final double TASA_CONVERSION_YENES = 110.0;
+
+### 3️⃣ Extraer Métodos
+¿Para qué sirve?
+Simplifica métodos largos al dividirlos en partes más pequeñas, lo que mejora la legibilidad
+y mantenimiento.
+
+### Pasos:
+Selecciona las líneas que imprimen las opciones del menú (System.out.println(...)).
+Haz clic derecho y selecciona Refactor > Extract Method.
+Nombra el nuevo método como mostrarOpcionesMoneda.
+
+Resultado:
+private static void mostrarOpcionesMoneda() {
+    System.out.println("Elija la moneda para convertir:");
+    System.out.println("1. Euros (EUR)");
+    System.out.println("2. Libras (GBP)");
+    System.out.println("3. Yen (JPY)");
+}
+
