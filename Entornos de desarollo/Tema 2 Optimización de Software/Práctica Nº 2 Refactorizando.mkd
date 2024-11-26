@@ -29,10 +29,10 @@ Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) 
 4. Repite para las otras tasas (`0.75` y `110.0`).
 
 ### Resultado nos tiene que visualizar lo siguiente:
-```java
 private static final double TASA_CONVERSION_EUROS = 0.85;
 private static final double TASA_CONVERSION_LIBRAS = 0.75;
-private static final double TASA_CONVERSION_YENES = 110.0; .
+private static final double TASA_CONVERSION_YENES = 110.0;
+
 
 ### 3️⃣ Extraer Métodos
 ¿Para qué sirve?
@@ -51,5 +51,7 @@ private static void mostrarOpcionesMoneda() {
     System.out.println("2. Libras (GBP)");
     System.out.println("3. Yen (JPY)");
 }
+
+
 
 
