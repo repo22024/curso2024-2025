@@ -32,4 +32,24 @@ Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) 
 ```java
 private static final double TASA_CONVERSION_EUROS = 0.85;
 private static final double TASA_CONVERSION_LIBRAS = 0.75;
-private static final double TASA_CONVERSION_YENES = 110.0;
+private static final double TASA_CONVERSION_YENES = 110.0; .
+
+### 3️⃣ Extraer Métodos
+¿Para qué sirve?
+Simplifica métodos largos al dividirlos en partes más pequeñas, lo que mejora la legibilidad
+y mantenimiento.
+
+### Pasos:
+Selecciona las líneas que imprimen las opciones del menú (System.out.println(...)).
+Haz clic derecho y selecciona Refactor > Extract Method.
+Nombra el nuevo método como mostrarOpcionesMoneda.
+
+Resultado:
+private static void mostrarOpcionesMoneda() {
+    System.out.println("Elija la moneda para convertir:");
+    System.out.println("1. Euros (EUR)");
+    System.out.println("2. Libras (GBP)");
+    System.out.println("3. Yen (JPY)");
+}
+
+
