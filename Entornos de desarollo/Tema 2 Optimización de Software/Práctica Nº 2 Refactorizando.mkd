@@ -29,7 +29,6 @@ Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) 
 4. Repite para las otras tasas (`0.75` y `110.0`).
 
 ### Resultado:
-```java
 private static final double TASA_CONVERSION_EUROS = 0.85;
 private static final double TASA_CONVERSION_LIBRAS = 0.75;
 private static final double TASA_CONVERSION_YENES = 110.0;
@@ -45,7 +44,7 @@ Simplifica métodos largos al dividirlos en partes más pequeñas, lo que mejora
 3. Nombra el nuevo método como `mostrarOpcionesMoneda`.
 
 ### Resultado:
-```java
+
 private static void mostrarOpcionesMoneda() {
     System.out.println("Elija la moneda para convertir:");
     System.out.println("1. Euros (EUR)");
