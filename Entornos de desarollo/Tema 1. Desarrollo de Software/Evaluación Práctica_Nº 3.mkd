@@ -1,0 +1,77 @@
+# 📝 PRÁCTICA 3: Normativa ISO/IEC 12207
+
+## Título del Reto:
+**"Normativa ISO/IEC 12207: Optimización del Ciclo de Vida del Software en Proyectos Empresariales"**
+
+### Introducción al Reto
+Como parte de un equipo encargado de garantizar la calidad y eficiencia en el desarrollo de software, has sido seleccionado para realizar un análisis integral de la normativa ISO/IEC 12207. Este estándar define los procesos clave para gestionar el ciclo de vida del software, desde su concepción hasta su retiro, y tiene un impacto significativo en la calidad, la seguridad y la gestión del desarrollo.
+
+### Objetivo:
+Desarrollar un informe profesional que analice el impacto y la aplicabilidad de ISO/IEC 12207 en proyectos reales, identificando ventajas, desafíos y casos de éxito en su implementación.
+
+## 📋 Tareas a Realizar
+
+### 1️⃣ Investigación Documentada
+
+#### 1.1. Comprender la Norma ISO/IEC 12207:
+
+- Investiga las versiones más recientes de la normativa y describe cómo han evolucionado.
+- Identifica y define los procesos del ciclo de vida que especifica (procesos principales, de soporte y organizativos).
+
+#### 1.2. Impacto en Sectores Industriales:
+
+- Explora cómo diferentes sectores (e.g., salud, defensa, fintech) implementan la normativa y adapta los procesos del ciclo de vida.
+
+#### 1.3. Estudio de Casos:
+
+- Busca casos prácticos que destaquen:
+  - Éxitos en la implementación de ISO/IEC 12207.
+  - Retos enfrentados y lecciones aprendidas.
+
+### 2️⃣ Análisis y Comparativa
+
+#### 2.1. Gestión de Calidad y Seguridad:
+
+- Describe cómo esta normativa mejora la calidad, seguridad y eficiencia del software.
+
+#### 2.2. Certificaciones y Estándares Relacionados:
+
+- Analiza otras normativas o certificaciones vinculadas, como ISO/IEC 15504 (SPICE) o ISO 9001.
+
+### 3️⃣ Recomendaciones Estratégicas
+
+#### 3.1. Propón estrategias para implementar ISO/IEC 12207 en un proyecto empresarial.
+
+#### 3.2. Sugiere herramientas o metodologías para facilitar la implementación del estándar.
+
+---
+
+## 📄 Entregables
+
+### Informe en PDF:
+
+- **Sección 1**: Introducción a ISO/IEC 12207 y su evolución.
+- **Sección 2**: Procesos principales, de soporte y organizativos.
+- **Sección 3**: Impacto en diferentes sectores y casos prácticos.
+- **Sección 4**: Beneficios y desafíos de la implementación.
+- **Sección 5**: Recomendaciones y conclusiones.
+
+---
+
+## 📚 Recursos y Fuentes Sugeridas
+
+### Sitios Oficiales y Normativas
+
+- [ISO - International Organization for Standardization](https://www.iso.org/)
+- [IEC - International Electrotechnical Commission](https://www.iec.ch/)
+
+### Bases de Datos Académicas
+
+- [IEEE Xplore](https://ieeexplore.ieee.org/)
+- [ACM Digital Library](https://dl.acm.org/)
+- [Google Scholar](https://scholar.google.com/)
+
+### Blogs y Estudio de Casos
+
+- [Medium (Categoría de Ingeniería de Software)](https://medium.com/)
+- [Stack Overflow (Discusión Técnica)](https://stackoverflow.com/)
