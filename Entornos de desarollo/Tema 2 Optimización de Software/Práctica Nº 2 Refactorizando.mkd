@@ -25,7 +25,7 @@ Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) 
 ### Pasos:
 1. Selecciona el valor `0.85` en el método `ConvertirAEuros`.
 2. Haz clic derecho y elige `Refactor > Extract Constant`.
-3. Asigna un nombre como `TASA_CONVERSION_EUROS`.
+3. Asigna un nombre como `TASA_CONVERSION_EUROS`,  `TASA_CONVERSION_LIBRAS',  `TASA_CONVERSION_YENES, Respectivamente
 4. Repite para las otras tasas (`0.75` y `110.0`).
 
 ### Resultado:
