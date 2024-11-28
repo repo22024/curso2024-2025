@@ -12,7 +12,7 @@ Renombrar elementos del código ayuda a mejorar su claridad y mantenimiento. Por
 3. Cambia el nombre a `Java_Calculadora_Moneda` y presiona `Enter`.
 4. Eclipse actualizará automáticamente todas las referencias a esta clase.
 
-#### Renombrar el método `convertToEuros`:
+#### Renombrar el método `ConvertirAEuros`:
 1. Haz clic derecho sobre el método.
 2. Selecciona `Refactor > Rename`.
 3. Cambia el nombre a `convertirAEuros` (para seguir un formato español consistente).
