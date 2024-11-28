@@ -23,7 +23,7 @@ Renombrar elementos del código ayuda a mejorar su claridad y mantenimiento. Por
 Facilita el cambio de valores repetidos o sensibles (como tasas de conversión) al definirlos como constantes globales.
 
 ### Pasos:
-1. Selecciona el valor `0.85` en el método `convertToEuros`.
+1. Selecciona el valor `0.85` en el método `ConvertirAEuros`.
 2. Haz clic derecho y elige `Refactor > Extract Constant`.
 3. Asigna un nombre como `TASA_CONVERSION_EUROS`.
 4. Repite para las otras tasas (`0.75` y `110.0`).
