@@ -1,23 +1,26 @@
-🛠️ Introducción al Debugger en Desarrollo Multiplataforma con Java y Eclipse
+### 🛠️ Introducción al Debugger en Desarrollo Multiplataforma con Java y Eclipse
 El debugging o depuración es una técnica esencial en el desarrollo de software que permite identificar y corregir errores o inconsistencias en el código. En el contexto de Java y el IDE Eclipse, el depurador ofrece herramientas avanzadas para analizar la ejecución del programa paso a paso, visualizar valores de variables y comprender el flujo del código.
 
 📌 A continuación, exploraremos los conceptos clave, el uso práctico del depurador en Eclipse y las mejores prácticas para emplearlo eficientemente.
 
-1️⃣ Conceptos Fundamentales del Debugging
+#1️⃣ Conceptos Fundamentales del Debugging
 🔍 1.1. ¿Qué es el Debugger?
-El debugger es una herramienta que permite al programador observar el comportamiento interno de una aplicación en tiempo de ejecución. Ofrece capacidades para:
+El debugger es una herramienta que permite al programador observar el comportamiento interno de una aplicación en tiempo de ejecución. 
+Ofrece capacidades para:
 
 ⏸️ Pausar la ejecución del programa en puntos específicos.
 🛠️ Inspeccionar y modificar variables en tiempo real.
 🚶 Examinar el flujo de ejecución a través del código.
 ❗ Identificar excepciones o errores inesperados.
+
 🔵 1.2. Punto de Ruptura (Breakpoint):
 Un punto de ruptura es una marca que se coloca en una línea de código para indicar al depurador dónde debe detener la ejecución del programa. Esto permite al programador inspeccionar el estado del programa en un punto específico.
 
 Cómo usar los puntos de ruptura en Eclipse:
 Colocación:
 
-Haz clic en el margen izquierdo del editor de código en Eclipse, al lado del número de línea donde deseas detener la ejecución. Aparecerá un punto azul 🔵 indicando el breakpoint.
+Haz clic en el margen izquierdo del editor de código en Eclipse, al lado del número de línea donde deseas detener la ejecución. 
+Aparecerá un punto azul 🔵 indicando el breakpoint.
 Alternativamente, haz clic derecho en la línea deseada y selecciona Toggle Breakpoint.
 Dónde colocarlos:
 
@@ -25,6 +28,7 @@ Dónde colocarlos:
 ⚡ Justo antes o dentro de bloques condicionales (if, else).
 🚩 En puntos críticos donde creas que puede estar ocurriendo un error, como en bucles o funciones complejas.
 📊 Antes de operaciones críticas como llamadas a bases de datos o procesamiento de datos.
+
 Ejemplo práctico:
 java
 Copiar código
@@ -40,12 +44,14 @@ public class DebugExample {
         return x + y;
     }
 }
+
 ✅ 1.3. Ventajas del Debugger en Eclipse
 👁️ Visualización de Variables: Permite observar los valores de las variables en cada paso del programa.
 🔄 Navegación Paso a Paso: Opciones para avanzar línea a línea o entrar/salir de métodos.
 🧵 Monitoreo de Hilos: Útil para aplicaciones concurrentes.
 ✏️ Modificación en Tiempo Real: Algunas variables pueden cambiarse sin detener la ejecución.
-2️⃣ Uso del Debugger en Eclipse
+
+#2️⃣ Uso del Debugger en Eclipse
 🚀 2.1. Activar el Modo Debug
 Haz clic derecho sobre tu programa y selecciona Debug As > Java Application.
 Si has colocado un breakpoint, el programa se detendrá automáticamente al alcanzarlo.
@@ -74,7 +80,7 @@ Copiar código
 x == 5 // Solo se detendrá si la variable 'x' tiene el valor 5.
 🕵️ Watchpoints: Breakpoints asociados a variables específicas que se activan cuando el valor de la variable cambia.
 
-3️⃣ Complementos y Alternativas para el Debugger en Eclipse
+#3️⃣ Complementos y Alternativas para el Debugger en Eclipse
 🛠️ 3.1. Complementos para Depuración Avanzada
 🧠 Eclipse Memory Analyzer: Inspecciona problemas relacionados con el uso de memoria, como fugas o referencias no deseadas.
 📊 Eclipse MAT (Memory Analyzer Tool): Ideal para depurar aplicaciones con problemas de rendimiento relacionados con memoria.
@@ -99,5 +105,4 @@ Usa logs para registrar información adicional durante la depuración.
 
 Si tienes un programa grande, prueba partes específicas del código antes de integrarlas.
 📖 Aprende a leer el stack trace:
-
 Los mensajes de error y las excepciones son indicadores útiles para identificar problemas.
