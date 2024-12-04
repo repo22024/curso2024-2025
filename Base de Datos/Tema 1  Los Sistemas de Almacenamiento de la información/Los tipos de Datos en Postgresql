@@ -1,0 +1,120 @@
+# 📘 Guía Especializada en Tipos de Datos en PostgreSQL
+
+PostgreSQL es un sistema de gestión de bases de datos relacional y objeto-relacional que ofrece una amplia variedad de tipos de datos, lo que lo convierte en una herramienta poderosa y flexible. A continuación, exploraremos los tipos de datos más utilizados, sus significados, casos de uso recomendados y aspectos avanzados como los tipos de datos enumerados (ENUM) y auto incrementales.
+
+## 1. Tipos de Datos Más Utilizados en PostgreSQL
+
+### A. Numéricos
+- **smallint**
+  - 📏 **Descripción:** Entero de 2 bytes (-32,768 a 32,767).
+  - 🛠️ **Cuándo usarlo:** Para valores numéricos pequeños como edades, contadores de bajas magnitudes.
+
+- **integer (o int)**
+  - 📏 **Descripción:** Entero de 4 bytes (-2,147,483,648 a 2,147,483,647).
+  - 🛠️ **Cuándo usarlo:** Valores numéricos generales como IDs o cantidades moderadas.
+
+- **bigint**
+  - 📏 **Descripción:** Entero de 8 bytes (-9 quintillones a 9 quintillones).
+  - 🛠️ **Cuándo usarlo:** Para datos grandes como contadores de alto rango, estadísticas, o grandes cantidades.
+
+- **numeric o decimal**
+  - 📏 **Descripción:** Valores numéricos exactos de precisión arbitraria.
+  - 🛠️ **Cuándo usarlo:** Para cálculos financieros o datos que requieren alta precisión, como precios o intereses.
+
+- **real y double precision**
+  - 📏 **Descripción:** Números de coma flotante de precisión simple y doble.
+  - 🛠️ **Cuándo usarlo:** Para cálculos científicos o aproximaciones rápidas.
+
+### B. Tipos de Texto
+- **char(n)**
+  - 🛠️ **Descripción:** Cadena de texto de longitud fija (rellena con espacios si es más corta).
+  - 📝 **Cuándo usarlo:** Evitar su uso, excepto cuando se requiere longitud fija (p. ej., códigos de país ISO de 2 caracteres).
+
+- **varcharter varying (n)**
+  - 🛠️ **Descripción:** Cadena de texto de longitud variable con un límite.
+  - 📝 **Cuándo usarlo:** Cuando necesitas limitar la longitud del texto (p. ej., nombres de usuarios).
+
+- **text**
+  - 🛠️ **Descripción:** Cadena de texto de longitud ilimitada.
+  - 📝 **Cuándo usarlo:** Para texto libre como descripciones o comentarios.
+
+### C. Tipos de Fecha y Hora
+- **date**
+  - 🛠️ **Descripción:** Solo almacena fechas (AAAA-MM-DD).
+  - 📅 **Cuándo usarlo:** Fechas de eventos, registros, etc.
+
+- **time y time with time zone**
+  - 🛠️ **Descripción:** Almacenan solo la hora, con o sin zona horaria.
+  - ⏰ **Cuándo usarlo:** Para almacenar horas específicas sin referencia a fechas.
+
+- **timestamp y timestamp with time zone**
+  - 🛠️ **Descripción:** Almacena fecha y hora exacta, con o sin zona horaria.
+  - 📅 **Cuándo usarlo:** Registro de eventos precisos en el tiempo.
+
+- **interval**
+  - 🛠️ **Descripción:** Representa un intervalo de tiempo.
+  - ⏳ **Cuándo usarlo:** Para cálculos como "2 días después" o "3 meses antes".
+
+### D. Tipos Booleanos
+- **boolean**
+  - ✅ **Descripción:** Almacena valores TRUE, FALSE o NULL.
+  - 🛠️ **Cuándo usarlo:** Para estados lógicos como "activo" o "completado".
+
+### E. Tipos Especializados
+- **uuid**
+  - 🛠️ **Descripción:** Identificador único universal.
+  - 📝 **Cuándo usarlo:** Para claves primarias cuando necesitas unicidad global.
+
+- **json y jsonb**
+  - 🛠️ **Descripción:** Almacenan datos en formato JSON (estructura semiestructurada).
+  - 📝 **Cuándo usarlo:** Para datos semiestructurados o flexibles.
+
+- **array**
+  - 🛠️ **Descripción:** Almacena listas o arreglos de valores.
+  - 📝 **Cuándo usarlo:** Para listas relacionadas como etiquetas o valores múltiples en un campo.
+
+- **enum**
+  - 🛠️ **Descripción:** Conjunto fijo de valores predefinidos. Se detalla a continuación.
+
+## 2. Tipos de Datos ENUM
+
+### Qué es un Tipo de Dato ENUM
+Un tipo ENUM permite definir un conjunto de valores predefinidos y limita las entradas a esas opciones. Ejemplo: `tipoCliente` con valores "particular", "empresa", y "ONG".
+
+### Creación de un Tipo ENUM
+Ejemplo SQL:
+
+-- Crear el tipo ENUM
+CREATE TYPE tipoCliente AS ENUM ('particular', 'empresa', 'ONG');
+
+Por ejemplo un insert seria así:
+-- Insertar valores válidos
+INSERT INTO clientes (nombre, tipo) VALUES ('Juan Pérez', 'particular');
+INSERT INTO clientes (nombre, tipo) VALUES ('ACME Corp', 'empresa');
+
+### ¿Por qué no es aconsejable usar ENUM?
+Aunque ENUM puede ser útil en casos específicos, tiene desventajas significativas:
+- **Dificultad de Mantenimiento:**
+  - Agregar o cambiar valores requiere migraciones complejas.
+  - Ejemplo: Si necesitas agregar `Freelancer`, debes usar `ALTER TYPE` y no todos los cambios son inmediatos.
+
+- **Menor Flexibilidad:**
+  - No puedes ordenar fácilmente los valores, ni realizar cambios dinámicos sin afectar el esquema.
+
+- **Compatibilidad Limitada:**
+  - Los valores de un ENUM son específicos de PostgreSQL y no son portables a otras bases de datos.
+
+### Alternativa Recomendada
+Usa una tabla de referencia con una relación (FOREIGN KEY) para almacenar los valores válidos. Esto es más flexible y fácil de mantener.
+
+## 3. Tipos de Datos para Campos Auto Incrementales
+
+### Recomendación: Usar SERIAL o BIGSERIAL
+- **SERIAL:**
+  - 📏 Entero de 4 bytes con incremento automático.
+  - 🛠️ Se utiliza para IDs únicos en la mayoría de las tablas.
+
+- **BIGSERIAL:**
+  - 📏 Entero de 8 bytes con incremento automático.
+  - 🛠️ Se utiliza cuando esperas que los IDs superen los límites de un SERIAL.
+
