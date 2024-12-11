@@ -43,7 +43,7 @@ Odoo 17 incluye mejoras significativas respecto a versiones anteriores:
 - **Mejoras en comercio electrónico:** Nuevas plantillas y opciones de pago.
 
   ---
-  Implantación Técnica de Sistemas ERP-CRM: Odoo 🔧
+  ### Implantación Técnica de Sistemas ERP-CRM: Odoo 🔧
 La implantación de sistemas ERP-CRM como Odoo es un proceso complejo que incluye varias fases esenciales para garantizar su éxito en una organización. Estas etapas abarcan:
 
 Análisis de requisitos.
@@ -60,9 +60,7 @@ Capacitación a usuarios finales.
 
 Adaptaciones y personalizaciones.
 
-Este documento aborda en detalle la implantación técnica de Odoo, destacando tanto su instalación como configuración en distintos entornos.
-
-Características de Odoo 🔄
+### Características de Odoo 🔄
 Odoo es un ERP-CRM de código abierto que ofrece una versión Community (gratuita) y Enterprise (de pago). Entre sus características clave se encuentran:
 
 Licencia: LGPLv3.
@@ -118,32 +116,32 @@ Instalación en Linux (Ejemplo)
 
 Preparar el sistema:
 
-bash
+sintaxis
 sudo apt update && sudo apt install -y git python3-pip python3-venv postgresql
 Descargar código fuente:
 
-bash
+sintaxis
 git clone https://github.com/odoo/odoo --depth 1 --branch 13.0 /opt/odoo13
 Configurar entorno Python:
 
-bash
+sintaxis
 python3 -m venv odoo-venv
 source odoo-venv/bin/activate
 pip install -r /opt/odoo13/requirements.txt
 Configurar PostgreSQL:
 
-bash
+sintaxis
 sudo su - postgres
 createuser -s odoo13
 exit
 Crear archivo de configuración:
 
-bash
+sintaxis
 nano /etc/odoo13.conf
 # Agregar configuración básica
 Iniciar servicio Odoo:
 
-bash
+sintaxis
 ./odoo-bin -c /etc/odoo13.conf
 Configuración y Personalización 🎨
 Usuarios y Privilegios 🔑
@@ -166,7 +164,7 @@ Personalizar encabezados, pies de página y formatos.
 
 Diseñar módulos específicos con Odoo Studio (Enterprise).
 
-Ventajas de Odoo 🚀
+### Ventajas de Odoo 🚀
 Flexibilidad: Modularidad para adaptarse a cualquier negocio.
 
 Comunidad Activa: Miles de módulos disponibles a través de Odoo Community Association (OCA).
