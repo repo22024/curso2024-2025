@@ -1,7 +1,3 @@
-¡Por supuesto! Aquí tienes el texto convertido a Markdown con emojis:
-
----
-
 # Enunciado para Diseño de una Base de Datos 🗂️
 
 ## Sistema de Gestión de Pacientes en Urgencias de Hospiten 🏥
