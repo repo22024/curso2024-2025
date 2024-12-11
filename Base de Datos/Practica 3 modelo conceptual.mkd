@@ -1,0 +1,61 @@
+Hemos comenzado a trabajar en una pequeña empresa llamada TechAdapt S.L. 🏢
+Especializada en la venta personalizada de equipos informáticos para particulares y empresas. Durante nuestra entrevista laboral, destacamos nuestro interés y experiencia en soluciones de software libre, especialmente en motores de bases de datos abiertos, y mencionamos cómo podrían beneficiar a la organización frente a alternativas propietarias. Quizás esto influyó en nuestra selección, pero el primer día ya enfrentamos un desafío interesante.
+
+Actualmente, la empresa evalúa la transición de su sistema de gestión administrativa y operativa a plataformas de software libre. 💻
+La motivación principal radica en problemas recientes con los proveedores de las soluciones propietarias utilizadas, lo que ha generado retrasos y costos adicionales. Como parte de esta transición, se nos ha encargado rediseñar el sistema de gestión de solicitudes y problemas técnicos planteados por los clientes, modernizando y automatizando los procesos existentes.
+
+En el sistema actual, las solicitudes de soporte o incidencias llegan por teléfono, correo electrónico o de manera presencial. 📞📧
+El personal encargado anota la información en una hoja física y la coloca en una bandeja que los técnicos revisan al iniciar su jornada. A medida que los técnicos avanzan en las soluciones, anotan manualmente su progreso en estas hojas, las cuales, una vez resuelto el problema, se entregan al departamento administrativo. Este equipo contacta con el cliente para confirmar la resolución y proceder con la facturación de los servicios y materiales utilizados.
+
+El proceso actual tiene claras limitaciones: duplicación de trabajo, pérdida de tiempo, dificultad para el seguimiento de casos y falta de integración con otros sistemas. ⏳
+Nuestra misión es diseñar un sistema centralizado, automatizado y basado en software libre que mejore la eficiencia operativa, la trazabilidad de las incidencias y la experiencia del cliente.
+
+Entidades y sus atributos de los cuales podemos partir:
+Clientes:
+ID del cliente
+
+Nombre
+
+Dirección
+
+Teléfono
+
+Correo electrónico
+
+Solicitudes/Incidencias:
+ID de la solicitud
+
+Fecha y hora de registro
+
+Tipo de incidencia (Hardware, software, conectividad, configuración, consultoría)
+
+Descripción del problema
+
+Estado (pendiente, en proceso, resuelto)
+
+Técnicos:
+ID del técnico
+
+Nombre
+
+Especialización (hardware, redes, sistemas operativos, seguridad informática, atención al cliente, periféricos)
+
+Horario asignado
+
+Facturación:
+ID de factura
+
+Cliente asociado
+
+Desglose de costos (mano de obra, materiales)
+
+Fecha de emisión
+
+Materiales/Componentes:
+ID del material
+
+Descripción
+
+Precio unitario
+
+Cantidad utilizada
