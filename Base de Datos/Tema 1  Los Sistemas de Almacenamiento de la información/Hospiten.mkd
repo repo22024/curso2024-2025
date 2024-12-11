@@ -1,0 +1,95 @@
+¡Por supuesto! Aquí tienes el texto convertido a Markdown con emojis:
+
+---
+
+# Enunciado para Diseño de una Base de Datos 🗂️
+
+## Sistema de Gestión de Pacientes en Urgencias de Hospiten 🏥
+
+Hospiten requiere un sistema eficiente para gestionar la atención de los pacientes en el área de urgencias. Actualmente, los procesos se realizan de manera manual, lo que dificulta la trazabilidad y el manejo eficiente de la información. Tu tarea será diseñar una base de datos que automatice el control de la atención en urgencias. El sistema debe contemplar los siguientes requerimientos:
+
+### Requerimientos del Sistema 📋
+
+#### Recepción de Pacientes 🧑‍⚕️
+- Cada paciente que acude a urgencias proporciona su Nombre, DNI y el motivo de consulta.
+- Si el paciente no está registrado en el sistema, se deben ingresar sus datos personales (Nombre, DNI, Fecha de Nacimiento, Teléfono, Dirección).
+
+#### Asignación de Atención 🆔
+- Al ser registrado, el paciente recibe un código de atención que consta de:
+  - Las iniciales de su nombre y apellidos (máximo 3 letras).
+  - Un número aleatorio de tres cifras.
+  - Ejemplo: MFH528 (donde MFH corresponde a "Mar Francisco Herrera").
+- Este código será utilizado para notificar al paciente en pantalla.
+
+#### Gestión de Servicios 🛠️
+- Los pacientes pueden ser asignados a uno o más de los siguientes servicios:
+  - Triaje, Laboratorio, Consulta, Radiografía.
+- Cada servicio tendrá un estado que puede ser:
+  - Pendiente, En Progreso o Finalizado.
+
+#### Notificaciones 📲
+- El sistema debe mostrar las notificaciones a los pacientes en tiempo real, indicando:
+  - El código de atención.
+  - El servicio asignado.
+  - El estado del servicio.
+
+#### Historial de Ingresos 📅
+- Un paciente puede ingresar varias veces al sistema.
+- Por cada ingreso, se debe registrar:
+  - La fecha del ingreso.
+  - El DNI del paciente (para identificarlo).
+
+---
+
+## Entidades Principales 🏷️
+
+### Paciente:
+- Identificación única del paciente (DNI).
+- Nombre.
+- Apellidos.
+- Fecha de nacimiento.
+- Teléfono.
+- Dirección.
+
+### Ingreso:
+- Código único del ingreso.
+- Fecha del ingreso.
+- Relación con el paciente.
+
+### Notificación:
+- Código de atención (iniciales + número).
+- Relación con el ingreso.
+- Servicio asignado (Triaje, Laboratorio, Consulta, Radiografía).
+- Estado del servicio (Pendiente, En Progreso, Finalizado).
+
+---
+
+## Requerimientos del Modelo 📝
+
+- Diseñar el Modelo Conceptual utilizando un diagrama Entidad-Relación (E-R).
+- Crear el Modelo Relacional, indicando:
+  - Las tablas correspondientes.
+  - Las relaciones (primarias, foráneas).
+- Implementar el Modelo Físico en un gestor de bases de datos de su preferencia (MySQL, PostgreSQL, SQL Server, etc.).
+- Incluir scripts para crear las tablas e insertar datos de prueba.
+
+---
+
+## Restricciones y Consideraciones ⚠️
+
+- La base de datos debe garantizar la integridad referencial entre las tablas.
+- Diseñar índices para optimizar la búsqueda por DNI y Estado del servicio.
+- Garantizar que no se puedan registrar dos pacientes con el mismo DNI.
+- Registrar al menos 10 pacientes, con sus respectivos ingresos y notificaciones de atención.
+
+---
+
+## Entrega 📤
+
+- Entregar el modelo conceptual, relacional y físico en un documento PDF.
+- Adjuntar los scripts SQL de creación e inserción.
+- Explicar cómo el sistema maneja la trazabilidad de un paciente desde el ingreso hasta la finalización de su atención.
+
+---
+
+Espero que esta versión sea de tu agrado. ¿Hay algo más en lo que pueda ayudarte?
