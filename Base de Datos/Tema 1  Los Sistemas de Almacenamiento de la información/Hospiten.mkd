@@ -90,6 +90,3 @@ Hospiten requiere un sistema eficiente para gestionar la atención de los pacien
 - Adjuntar los scripts SQL de creación e inserción.
 - Explicar cómo el sistema maneja la trazabilidad de un paciente desde el ingreso hasta la finalización de su atención.
 
----
-
-Espero que esta versión sea de tu agrado. ¿Hay algo más en lo que pueda ayudarte?
