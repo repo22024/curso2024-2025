@@ -138,7 +138,7 @@ Crear archivo de configuración:
 
 sintaxis
 nano /etc/odoo13.conf
-# Agregar configuración básica
+### Agregar configuración básica
 Iniciar servicio Odoo:
 
 sintaxis
@@ -171,7 +171,7 @@ Comunidad Activa: Miles de módulos disponibles a través de Odoo Community Asso
 
 Escalabilidad: Adecuado para pequeñas empresas y grandes corporaciones.
 
-Recursos Adicionales 📖
+### Recursos Adicionales 📖
 Documentación Oficial de Odoo
 
 Repositorio GitHub de OCA
