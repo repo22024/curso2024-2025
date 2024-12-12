@@ -60,6 +60,7 @@ Se enfocan en probar unidades individuales del código (funciones, métodos o m�
 - 🛠️ JUnit5/Mockito: Para pruebas unitarias y simulaciones.
 - 🛠️ Jest: Para aplicaciones de JavaScript/TypeScript.
 - Sitio oficial de Junit https://junit.org/junit5/
+- Sitio con información adicional : https://www.baeldung.com/junit
 
 ### 4. Pruebas de Integración
 **Concepto:**
