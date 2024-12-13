@@ -1,0 +1,29 @@
+¡Claro! Aquí tienes una versión mejorada del texto con emojis:
+
+---
+
+# Primera parte de las pruebas unitarias con JUnit para una clase en JAVA 🧪
+
+En esta actividad, revisaremos el código de la clase `ConversorTemperatura` con el objetivo de garantizar que cumple con las funcionalidades indicadas en sus métodos. El enfoque será manual, sin utilizar herramientas como depuradores ni pruebas automatizadas (JUnit). Esto nos permitirá familiarizarnos con el análisis y la validación básica del comportamiento de un programa.
+
+## Instrucciones 📋
+
+### Ejecutabilidad del Código 💻
+
+1. **Descarga y compila el código proporcionado.**
+2. **Verifica que el programa pueda ejecutarse sin errores.**
+3. **Ejecuta el programa varias veces, introduciendo diferentes valores y opciones para asegurarte de que la interacción básica con el usuario funciona correctamente.**
+
+### Validación de Funcionalidades ✅
+
+1. **Introduce valores específicos en grados Celsius (por ejemplo: 0, 25, 100, -10, etc.).**
+2. **Investiga la fórmula que permite convertir los grados Celsius a Fahrenheit.**
+3. **Compara los resultados obtenidos manualmente con los resultados que devuelve el programa.**
+4. **Realiza el mismo procedimiento con la conversión a Kelvin.**
+5. **Compara los resultados obtenidos manualmente con los resultados que devuelve el programa.**
+
+Finalmente, una vez realizados estos sencillos pasos, te darás cuenta de que hay un error en la conversión. Ahora imagina fórmulas más complejas con interminables bucles de control, etc. Lo que acabas de hacer es lo que normalmente haremos con JUnit utilizando las anotaciones que nos proporciona Eclipse con JUnit.
+
+---
+
+Espero que esta versión sea de tu agrado. ¿Hay algo más en lo que pueda ayudarte?
