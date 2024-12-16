@@ -62,14 +62,7 @@ Hospiten requiere un sistema eficiente para gestionar la atención de los pacien
 
 ## Requerimientos del Modelo 📝
 
-- Diseñar el Modelo Conceptual utilizando un diagrama Entidad-Relación (E-R).
-- Crear el Modelo Relacional, indicando:
-  - Las tablas correspondientes.
-  - Las relaciones (primarias, foráneas).
-- Implementar el Modelo Físico en un gestor de bases de datos de su preferencia (MySQL, PostgreSQL, SQL Server, etc.).
-- Incluir scripts para crear las tablas e insertar datos de prueba.
-
----
+- Diseñar el Modelo Conceptual
 
 ## Restricciones y Consideraciones ⚠️
 
