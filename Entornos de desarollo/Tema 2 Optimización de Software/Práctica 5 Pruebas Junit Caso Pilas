@@ -1,0 +1,91 @@
+Clase Pilas 🗂️
+El código adjunto define una clase Pilas que implementa una pila genérica usando un Vector para almacenar elementos. Incluye las siguientes funcionalidades principales:
+
+Métodos principales:
+pilavacia(): Verifica si la pila está vacía.
+
+apilar(Integer o): Agrega un elemento a la pila.
+
+desapilar(): Retira el elemento más reciente de la pila, lanzando una excepción personalizada ErrorPilaVacia si está vacía.
+
+getNumElements(): Devuelve el número de elementos en la pila.
+
+Excepción personalizada:
+ErrorPilaVacia: Se lanza al intentar desapilar una pila vacía.
+
+Esta implementación sigue la filosofía de LIFO (Último en entrar, primero en salir) de las pilas.
+
+Que se pide hacer 📋
+Crea la clase PilasTest del tipo Caso de prueba JUnit en Eclipse, que nos permita pasar las pruebas unitarias de caja blanca del método apilar. Para ello:
+
+Analiza previamente:
+El método apilar tiene un único flujo de ejecución, pero debemos asegurarnos de probar los siguientes aspectos:
+
+La pila aumenta su tamaño en 1 después de apilar un elemento.
+
+El elemento agregado se almacena correctamente en la posición correspondiente.
+
+Apoyo para realizar la práctica 🛠️.
+
+### 1. Crear la Clase de Pruebas:
+Crea una nueva clase PilasTest en el directorio src.
+Llámala PilasTest para mantener la consistencia.
+### Verificar que la pila esté vacía al inicio lo vamos hacer comenzando por
+Importar las clases necesarias:
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+### Declara la clase de prueba y crea una instancia de la clase Pilas:
+public class PilasTest {
+    private Pilas pila;
+
+### Usa @BeforeEach para inicializar la pila antes de cada prueba:
+ @BeforeEach
+    public void setUp() {
+        pila = new Pilas();
+    }
+
+### Escribe la prueba para verificar si la pila está vacía:
+    @Test
+    public void testPilaVaciaAlInicio() {
+        assertEquals(0, pila.getNumElements(), "La pila debería estar vacía al inicio.");
+    }
+
+### Verificar que la pila aumenta de tamaño al apilar un elemento
+### Escribe la prueba para apilar un elemento y verificar el tamaño:
+  @Test
+    public void testApilarElemento() {
+        pila.apilar(10); // Paso previo: agregar el  número 10
+        assertEquals(1, pila.getNumElements(), "La pila debería contener un elemento después de apilar.");
+    }
+
+### Verificar que el elemento correcto se desapila
+Escribe la prueba para desapilar un elemento:
+@Test
+    public void testDesapilarElemento() {
+        pila.apilar(20); // Paso previo: agregar el numero 20
+        Integer desapilado = pila.desapilar(); // Realiza la acción de desapilar.
+        assertEquals(20, desapilado, "El elemento desapilado debería ser 20.");
+    }
+
+
+### Verificar el tamaño después de apilar y desapilar
+Escribe la prueba para manipular la pila y verificar el tamaño:
+@Test
+    public void testApilarYDesapilar() {
+        pila.apilar(30); // Paso previo: apilar elementos.
+        pila.apilar(40);
+        pila.desapilar(); // Desapila un elemento.
+        assertEquals(1, pila.getNumElements(), "La pila debería contener un solo elemento después de desapilar uno.");
+    }
+
+### Verificar el comportamiento al desapilar una pila vacía
+Escribe la prueba para manejar una pila vacía:
+@Test
+    public void testDesapilarPilaVacia() {
+        Integer desapilado = pila.desapilar(); // Intenta desapilar una pila vacía.
+        assertEquals(null, desapilado, "Desapilar una pila vacía debería retornar null.");
+    }
+
+
