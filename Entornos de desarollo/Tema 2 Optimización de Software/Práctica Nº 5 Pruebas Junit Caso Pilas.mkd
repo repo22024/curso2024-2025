@@ -1,29 +1,28 @@
 Clase Pilas 🗂️
-La  clase Pilas que implementa una pila genérica usando un Vector para almacenar elementos. Incluye las siguientes funcionalidades principales:
 
-Métodos principales:
-pilavacia(): Verifica si la pila está vacía.
+Teniendo la Clase adjuntada en la plataforma que va de Pilas esta implementa una pila genérica usando un Vector para almacenar elementos. Incluye las siguientes funcionalidades principales:
 
-apilar(Integer o): Agrega un elemento a la pila.
+### Métodos principales:
+    pilavacia(): Verifica si la pila está vacía.
 
-desapilar(): Retira el elemento más reciente de la pila, lanzando una excepción personalizada ErrorPilaVacia si está vacía.
+    apilar(Integer o): Agrega un elemento a la pila.
 
-getNumElements(): Devuelve el número de elementos en la pila.
+    desapilar(): Retira el elemento más reciente de la pila, lanzando una excepción personalizada ErrorPilaVacia si está vacía.
+
+    getNumElements(): Devuelve el número de elementos en la pila.
 
 Excepción personalizada:
 ErrorPilaVacia: Se lanza al intentar desapilar una pila vacía.
 
 Esta implementación sigue la filosofía de LIFO (Último en entrar, primero en salir) de las pilas.
 
-Que se pide hacer 📋
+### Que se pide hacer 📋
 Crea la clase PilasTest del tipo Caso de prueba JUnit en Eclipse, que nos permita pasar las pruebas unitarias de caja blanca del método apilar. Para ello:
-
 Analiza previamente:
 El método apilar tiene un único flujo de ejecución, pero debemos asegurarnos de probar los siguientes aspectos:
-
 La pila aumenta su tamaño en 1 después de apilar un elemento.
-
 El elemento agregado se almacena correctamente en la posición correspondiente.
+______________________________________________________________________________________________________________________
 
 ### Apoyo para realizar la práctica 🛠️.
 
@@ -87,5 +86,9 @@ Escribe la prueba para manejar una pila vacía:
         Integer desapilado = pila.desapilar(); // Intenta desapilar una pila vacía.
         assertEquals(null, desapilado, "Desapilar una pila vacía debería retornar null.");
     }
-
+### Entrega:
+Archivo del Proyecto
+Pide que entreguen el archivo completo del proyecto Eclipse:
+Incluyendo las clases fuente (Pilas.java y PilasTest.java).
+Nota: Asegúrate de que el proyecto tenga configurado JUnit correctamente.
 
