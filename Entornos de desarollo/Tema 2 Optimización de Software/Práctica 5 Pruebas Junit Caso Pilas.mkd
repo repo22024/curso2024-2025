@@ -1,5 +1,5 @@
 Clase Pilas 🗂️
-El código adjunto define una clase Pilas que implementa una pila genérica usando un Vector para almacenar elementos. Incluye las siguientes funcionalidades principales:
+La  clase Pilas que implementa una pila genérica usando un Vector para almacenar elementos. Incluye las siguientes funcionalidades principales:
 
 Métodos principales:
 pilavacia(): Verifica si la pila está vacía.
@@ -25,7 +25,7 @@ La pila aumenta su tamaño en 1 después de apilar un elemento.
 
 El elemento agregado se almacena correctamente en la posición correspondiente.
 
-Apoyo para realizar la práctica 🛠️.
+### Apoyo para realizar la práctica 🛠️.
 
 ### 1. Crear la Clase de Pruebas:
 Crea una nueva clase PilasTest en el directorio src.
