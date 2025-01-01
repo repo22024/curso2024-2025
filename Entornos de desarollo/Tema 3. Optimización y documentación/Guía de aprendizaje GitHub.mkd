@@ -10,7 +10,7 @@
 6. [🔄 Pull Requests: Concepto y Aplicaciones](#-pull-requests-concepto-y-aplicaciones)
 7. [📋 Issues: Qué Son y Su Objetivo](#-issues-qué-son-y-su-objetivo)
 8. [🛠️ Características de GitHub que Todo Desarrollador Debe Manejar](#️-características-de-github-que-todo-desarrollador-debe-manejar)
-9. [Licencias en GitHub](## Buenas Prácticas al Elegir una Licencia).
+9. [🛠️ Licencias en GITHUB](#️-#-Principales-Tipos-de-Licencias-y-Cuándo-Usarlas)
 
 ---
 
