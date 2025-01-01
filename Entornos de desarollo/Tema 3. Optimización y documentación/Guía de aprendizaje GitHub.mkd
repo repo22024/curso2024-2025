@@ -10,6 +10,7 @@
 6. [🔄 Pull Requests: Concepto y Aplicaciones](#-pull-requests-concepto-y-aplicaciones)
 7. [📋 Issues: Qué Son y Su Objetivo](#-issues-qué-son-y-su-objetivo)
 8. [🛠️ Características de GitHub que Todo Desarrollador Debe Manejar](#️-características-de-github-que-todo-desarrollador-debe-manejar)
+9. [Licencias en GitHub](## Buenas Prácticas al Elegir una Licencia).
 
 ---
 
@@ -146,6 +147,96 @@ Un **issue** es una herramienta de GitHub para rastrear tareas, errores o propue
    - Usar Wikis y GitHub Pages para documentación más detallada.
 
 ---
+# Principales Tipos de Licencias y Cuándo Usarlas
+
+A continuación, se describen algunas de las licencias más comunes que puedes usar en GitHub y en qué tipo de proyectos son más recomendables:
+
+## 1. **MIT License**
+- **Descripción:**  
+  Es una licencia **muy permisiva**. Permite a otros usar, modificar, distribuir e incluso incorporar tu código en software propietario, siempre que incluyan el aviso de copyright original.
+- **Cuándo usarla:**  
+  - Proyectos de código abierto donde quieras maximizar el uso y la adopción del código.  
+  - Ideal para proyectos de **JavaScript**, **Python**, y **Java**.  
+- **Ejemplo:**  
+  Librerías, frameworks o utilidades que podrían ser útiles en muchos proyectos.
+
+---
+
+## 2. **Apache License 2.0**
+- **Descripción:**  
+  Permite el uso, modificación y distribución del código. Además, protege a los desarrolladores y usuarios de ser demandados por violaciones de patentes relacionadas con el software.
+- **Cuándo usarla:**  
+  - Proyectos más complejos o de larga duración, especialmente si involucran innovación técnica o patentes.  
+  - Ideal para proyectos de **Java** o sistemas distribuidos.  
+- **Ejemplo:**  
+  Frameworks grandes como **Apache Hadoop** o **Apache Kafka**.
+
+---
+
+## 3. **GNU General Public License (GPL)**
+- **Descripción:**  
+  Es una licencia **copyleft**. Permite usar, modificar y distribuir el código, pero con la condición de que cualquier software derivado también se publique bajo la misma licencia GPL. Esto asegura que el software permanezca siempre libre y abierto.
+- **Cuándo usarla:**  
+  - Cuando deseas asegurarte de que cualquier derivado de tu proyecto también sea de código abierto.  
+  - Ideal para proyectos de **bases de datos** o software educativo.  
+- **Ejemplo:**  
+  Proyectos como **WordPress** o **MySQL**.
+
+---
+
+## 4. **BSD License**
+- **Descripción:**  
+  Similar a la **MIT License**, pero con menos requisitos. Existen variantes como la BSD de 2 cláusulas o de 3 cláusulas.
+- **Cuándo usarla:**  
+  - Proyectos académicos o herramientas ligeras.  
+  - Ideal para proyectos pequeños o experimentales en lenguajes como **Python** o **C**.  
+
+---
+
+## 5. **Creative Commons (CC0)**
+- **Descripción:**  
+  Se utiliza para proyectos que no son software, como documentación, tutoriales o material gráfico.
+- **Cuándo usarla:**  
+  - Ideal para compartir contenido no relacionado directamente con el código, como guías de usuario o archivos README.
+
+---
+
+## ¿Por Qué No Se Puede Subir Software Sin Licencia a GitHub?
+
+Por defecto, **el código en GitHub está protegido por derechos de autor**. Esto significa que, si no incluyes una licencia explícita:
+1. **Nadie tiene derecho a usar tu código:**  
+   Incluso si es público, no pueden legalmente copiarlo, modificarlo o distribuirlo.
+2. **Limitas la colaboración:**  
+   Otros desarrolladores no pueden contribuir ni utilizar tu código con confianza.
+3. **Riesgo legal:**  
+   Si alguien usa tu código sin permiso, pueden enfrentarse a problemas legales, lo que desalienta el uso de tu repositorio.
+
+GitHub fomenta el uso de licencias claras para evitar ambigüedades legales y promover la colaboración.
+
+---
+
+## ¿Qué Licencia Elegir Según el Proyecto?
+
+| **Tipo de Proyecto**             | **Licencia Recomendada** | **Razón**                                                                                         |
+|-----------------------------------|---------------------------|---------------------------------------------------------------------------------------------------|
+| Librerías de JavaScript (e.g., npm) | MIT o BSD                | Maximiza la adopción por ser permisivas.                                                        |
+| Frameworks grandes (e.g., Java)   | Apache 2.0               | Protege contra problemas de patentes y fomenta la colaboración en proyectos de larga duración.  |
+| Proyectos de Python (código abierto)| MIT o GPL                | Si buscas mayor adopción, usa MIT; si quieres asegurar la apertura, usa GPL.                    |
+| Bases de datos (e.g., scripts SQL)| GPL o Apache 2.0         | GPL asegura que las derivaciones sean abiertas; Apache protege en proyectos complejos.          |
+| Documentación o guías             | Creative Commons (CC0)   | Permite compartir contenido de forma libre.                                                     |
+
+---
+
+## Buenas Prácticas al Elegir una Licencia
+
+1. **Consulta la comunidad del lenguaje o framework:**  
+   Algunos lenguajes tienen licencias comunes entre sus desarrolladores (e.g., Python y MIT).
+2. **Evalúa el propósito del proyecto:**  
+   Si es para aprendizaje, utiliza licencias permisivas como MIT. Para asegurar apertura en derivados, usa GPL.
+3. **Protección de patentes:**  
+   Si tu proyecto puede incluir innovaciones técnicas, considera Apache 2.0.
+4. **Usa la herramienta de GitHub para elegir licencias:**  
+   GitHub ofrece una guía interactiva para ayudarte a seleccionar la licencia adecuada.
 
 ## 🚀 Conclusión
 
