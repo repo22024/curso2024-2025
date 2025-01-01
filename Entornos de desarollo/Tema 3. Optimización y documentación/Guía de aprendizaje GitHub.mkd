@@ -148,9 +148,7 @@ Un **issue** es una herramienta de GitHub para rastrear tareas, errores o propue
 
 ---
 # Principales Tipos de Licencias y Cuándo Usarlas
-
 A continuación, se describen algunas de las licencias más comunes que puedes usar en GitHub y en qué tipo de proyectos son más recomendables:
-
 ## 1. **MIT License**
 - **Descripción:**  
   Es una licencia **muy permisiva**. Permite a otros usar, modificar, distribuir e incluso incorporar tu código en software propietario, siempre que incluyan el aviso de copyright original.
@@ -159,9 +157,7 @@ A continuación, se describen algunas de las licencias más comunes que puedes u
   - Ideal para proyectos de **JavaScript**, **Python**, y **Java**.  
 - **Ejemplo:**  
   Librerías, frameworks o utilidades que podrían ser útiles en muchos proyectos.
-
 ---
-
 ## 2. **Apache License 2.0**
 - **Descripción:**  
   Permite el uso, modificación y distribución del código. Además, protege a los desarrolladores y usuarios de ser demandados por violaciones de patentes relacionadas con el software.
@@ -170,9 +166,7 @@ A continuación, se describen algunas de las licencias más comunes que puedes u
   - Ideal para proyectos de **Java** o sistemas distribuidos.  
 - **Ejemplo:**  
   Frameworks grandes como **Apache Hadoop** o **Apache Kafka**.
-
 ---
-
 ## 3. **GNU General Public License (GPL)**
 - **Descripción:**  
   Es una licencia **copyleft**. Permite usar, modificar y distribuir el código, pero con la condición de que cualquier software derivado también se publique bajo la misma licencia GPL. Esto asegura que el software permanezca siempre libre y abierto.
@@ -181,9 +175,7 @@ A continuación, se describen algunas de las licencias más comunes que puedes u
   - Ideal para proyectos de **bases de datos** o software educativo.  
 - **Ejemplo:**  
   Proyectos como **WordPress** o **MySQL**.
-
 ---
-
 ## 4. **BSD License**
 - **Descripción:**  
   Similar a la **MIT License**, pero con menos requisitos. Existen variantes como la BSD de 2 cláusulas o de 3 cláusulas.
@@ -198,9 +190,7 @@ A continuación, se describen algunas de las licencias más comunes que puedes u
   Se utiliza para proyectos que no son software, como documentación, tutoriales o material gráfico.
 - **Cuándo usarla:**  
   - Ideal para compartir contenido no relacionado directamente con el código, como guías de usuario o archivos README.
-
 ---
-
 ## ¿Por Qué No Se Puede Subir Software Sin Licencia a GitHub?
 
 Por defecto, **el código en GitHub está protegido por derechos de autor**. Esto significa que, si no incluyes una licencia explícita:
@@ -212,9 +202,7 @@ Por defecto, **el código en GitHub está protegido por derechos de autor**. Est
    Si alguien usa tu código sin permiso, pueden enfrentarse a problemas legales, lo que desalienta el uso de tu repositorio.
 
 GitHub fomenta el uso de licencias claras para evitar ambigüedades legales y promover la colaboración.
-
 ---
-
 ## ¿Qué Licencia Elegir Según el Proyecto?
 
 | **Tipo de Proyecto**             | **Licencia Recomendada** | **Razón**                                                                                         |
@@ -237,11 +225,6 @@ GitHub fomenta el uso de licencias claras para evitar ambigüedades legales y pr
    Si tu proyecto puede incluir innovaciones técnicas, considera Apache 2.0.
 4. **Usa la herramienta de GitHub para elegir licencias:**  
    GitHub ofrece una guía interactiva para ayudarte a seleccionar la licencia adecuada.
-
 ## 🚀 Conclusión
-
 El control de versiones es la base para trabajar de manera eficiente y colaborativa en el desarrollo de software. GitHub, con su ecosistema robusto y herramientas, permite a los desarrolladores colaborar, documentar y gestionar proyectos con facilidad.
-
 Un conocimiento profundo de ramas, forks, pull requests, issues y documentación es esencial para destacarse como desarrollador profesional.
-
-¡Comienza hoy a explorar GitHub y lleva tus habilidades al siguiente nivel! 💻✨
