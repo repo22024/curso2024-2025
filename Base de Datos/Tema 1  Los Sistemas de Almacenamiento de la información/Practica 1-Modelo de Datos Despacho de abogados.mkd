@@ -35,6 +35,6 @@ Identificación única 🆔: Por ejemplo, un número de colegiado.
 Nombre completo ✍️.
 Datos de contacto 📞: Teléfono, correo electrónico, entre otros.
 Un procurador puede estar asignado a uno o varios casos 🔄.
-Diseño del modelo de datos (Conceptual) para la Gestión de Zoológicos y Especies Animales
+Diseño del modelo de datos (Conceptual).
 
 
