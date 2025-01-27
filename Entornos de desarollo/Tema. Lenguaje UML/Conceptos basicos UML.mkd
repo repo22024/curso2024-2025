@@ -33,7 +33,7 @@ PlantUML (para crear diagramas mediante código)
 ## 2.1. Diagramas de Clase en Java
 Los diagramas de clase son los más utilizados en el desarrollo de aplicaciones Java. Representan las clases, sus atributos, métodos y las relaciones entre ellas.
 
-### Ejemplo de una Clase en Java:
+### Ejemplo de una Clase en Java :
 public class Persona {
     private String nombre;
     private int edad;
@@ -52,6 +52,122 @@ public class Persona {
     }
     public void setEdad(int edad) {
         this.edad = edad;
+    }
+}
+### Ejemplo ampliado con herencia y relaciones 
+// Clase base: Persona
+public class Persona {
+    private String nombre;
+    private int edad;
+
+    public Persona(String nombre, int edad) {
+        this.nombre = nombre;
+        this.edad = edad;
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public int getEdad() {
+        return edad;
+    }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+}
+
+// Clase Estudiante hereda de Persona
+public class Estudiante extends Persona {
+    private String matricula;
+    private String carrera;
+
+    public Estudiante(String nombre, int edad, String matricula, String carrera) {
+        super(nombre, edad);
+        this.matricula = matricula;
+        this.carrera = carrera;
+    }
+
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    public String getCarrera() {
+        return carrera;
+    }
+
+    public void setCarrera(String carrera) {
+        this.carrera = carrera;
+    }
+}
+
+// Clase Profesor hereda de Persona
+public class Profesor extends Persona {
+    private String especialidad;
+    private double salario;
+
+    public Profesor(String nombre, int edad, String especialidad, double salario) {
+        super(nombre, edad);
+        this.especialidad = especialidad;
+        this.salario = salario;
+    }
+    public String getEspecialidad() {
+        return especialidad;
+    }
+    public void setEspecialidad(String especialidad) {
+        this.especialidad = especialidad;
+    }
+    public double getSalario() {
+        return salario;
+    }
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+}
+// Clase Universidad tiene relación con Estudiante y Profesor
+public class Universidad {
+    private String nombre;
+    private String direccion;
+    private List<Estudiante> estudiantes;
+    private List<Profesor> profesores;
+
+    public Universidad(String nombre, String direccion) {
+        this.nombre = nombre;
+        this.direccion = direccion;
+        this.estudiantes = new ArrayList<>();
+        this.profesores = new ArrayList<>();
+    }
+    public String getNombre() {
+        return nombre;
+    }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public List<Estudiante> getEstudiantes() {
+        return estudiantes;
+    }
+
+    public void agregarEstudiante(Estudiante estudiante) {
+        this.estudiantes.add(estudiante);
+    }
+    public List<Profesor> getProfesores() {
+        return profesores;
+    }
+    public void agregarProfesor(Profesor profesor) {
+        this.profesores.add(profesor);
     }
 }
 
