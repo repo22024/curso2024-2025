@@ -1,11 +1,19 @@
-Actividad: Creación de Diagramas de Clases con Draw.io
-Instrucciones Generales
-Utiliza Draw.io para crear un diagrama de clases selecciona 3 propuestas.
-Organiza las clases, atributos y métodos según el enunciado de cada sistema.
-Exporta tu diagrama en formato PDF y entrégalo.
-1. Sistema de Reservas de Hotel 🏨
-Enunciado: Diseña el diagrama UML del siguiente sistema que permita gestionar las reservas de un hotel. Partimos de una clase en Java ya existente:
+# Actividad: Creación de Diagramas de Clases con Draw.io
 
+## Instrucciones Generales
+- Utiliza **Draw.io** para crear un diagrama de clases.
+- Selecciona **3 propuestas** de las siguientes opciones.
+- Organiza las clases, atributos y métodos según el enunciado de cada sistema.
+- Exporta tu diagrama en formato **PDF** y entrégalo.
+
+---
+
+## 1. Sistema de Reservas de Hotel 🏨
+
+### Enunciado:
+Diseña el diagrama UML del siguiente sistema que permita gestionar las reservas de un hotel. Partimos de una clase en Java ya existente:
+
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -21,68 +29,103 @@ public class Hotel {
         this.telefono = telefono;
         this.habitaciones = new ArrayList<>();
     }
+
     public String getNombre() {
         return nombre;
     }
+
     public String getDireccion() {
         return direccion;
     }
+
     public String getTelefono() {
         return telefono;
     }
+
     public List<Habitacion> getHabitaciones() {
         return habitaciones;
     }
-   public void agregarHabitacion(Habitacion habitacion) {
+
+    public void agregarHabitacion(Habitacion habitacion) {
         habitaciones.add(habitacion);
     }
 }
-
 2. Red Social 🌐
-Enunciado: Diseña un sistema básico de red social. Las clases principales son:
+Enunciado:
+Diseña un sistema básico de red social. Las clases principales son:
 
 Usuario
-Publicación
-Comentario
-Instrucciones:
 
+Publicación
+
+Comentario
+
+Instrucciones:
 Un Usuario puede crear varias Publicaciones.
+
 Los Usuarios pueden escribir Comentarios en las publicaciones.
+
 Agrega métodos como:
+
 Contar los “me gusta” en una publicación.
+
 Mostrar todos los comentarios de una publicación.
+
 3. Sistema de Ventas en Línea 🛒
-Enunciado: Diseña un sistema para gestionar ventas en línea. Las clases principales son:
+Enunciado:
+Diseña un sistema para gestionar ventas en línea. Las clases principales son:
 
 Producto
-Carrito
-Cliente
-Pedido
-Instrucciones:
 
+Carrito
+
+Cliente
+
+Pedido
+
+Instrucciones:
 Los Clientes pueden agregar Productos al Carrito.
+
 Un Pedido se genera a partir del contenido del Carrito.
+
 Agrega métodos como:
+
 Calcular el total del pedido.
+
 Gestionar el inventario de productos.
+
 4. Gestión de Empleados 👔
-Enunciado: Diseña un sistema para gestionar los empleados de una empresa. Las clases principales son:
+Enunciado:
+Diseña un sistema para gestionar los empleados de una empresa. Las clases principales son:
 
 Empleado
-Departamento
-Proyecto
-Instrucciones:
 
+Departamento
+
+Proyecto
+
+Instrucciones:
 Cada Empleado pertenece a un Departamento.
+
 Los Empleados pueden trabajar en uno o más Proyectos.
+
 Agrega métodos como:
+
 Asignar proyectos a un empleado.
+
 Calcular la carga de trabajo de un empleado (por ejemplo, número de proyectos asignados).
+
 Recomendaciones
 Simplicidad: Utiliza nombres claros para las clases, atributos y métodos.
+
 Atributos: Incluye solo los más importantes. Por ejemplo:
+
 Clase Cliente: nombre, email.
+
 Clase Reserva: fechaEntrada, fechaSalida.
+
 Métodos: Piensa en acciones simples y útiles. Por ejemplo:
+
 verificarDisponibilidad() para una habitación.
+
 calcularTotal() para un pedido.
