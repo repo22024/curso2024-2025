@@ -50,7 +50,9 @@ public class Hotel {
         habitaciones.add(habitacion);
     }
 }
-2. Red Social 🌐
+
+
+## 2. Red Social 🌐
 Enunciado:
 Diseña un sistema básico de red social. Las clases principales son:
 
@@ -71,7 +73,7 @@ Contar los “me gusta” en una publicación.
 
 Mostrar todos los comentarios de una publicación.
 
-3. Sistema de Ventas en Línea 🛒
+### 3. Sistema de Ventas en Línea 🛒
 Enunciado:
 Diseña un sistema para gestionar ventas en línea. Las clases principales son:
 
@@ -94,7 +96,7 @@ Calcular el total del pedido.
 
 Gestionar el inventario de productos.
 
-4. Gestión de Empleados 👔
+### 4. Gestión de Empleados 👔
 Enunciado:
 Diseña un sistema para gestionar los empleados de una empresa. Las clases principales son:
 
@@ -115,7 +117,7 @@ Asignar proyectos a un empleado.
 
 Calcular la carga de trabajo de un empleado (por ejemplo, número de proyectos asignados).
 
-Recomendaciones
+## Recomendaciones
 Simplicidad: Utiliza nombres claros para las clases, atributos y métodos.
 
 Atributos: Incluye solo los más importantes. Por ejemplo:
