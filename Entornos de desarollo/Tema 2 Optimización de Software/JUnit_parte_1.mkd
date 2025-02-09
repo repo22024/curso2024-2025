@@ -1,7 +1,3 @@
-¡Claro! Aquí tienes una versión mejorada del texto con emojis:
-
----
-
 # Primera parte de las pruebas unitarias con JUnit para una clase en JAVA 🧪
 
 En esta actividad, revisaremos el código de la clase `ConversorTemperatura` con el objetivo de garantizar que cumple con las funcionalidades indicadas en sus métodos. El enfoque será manual, sin utilizar herramientas como depuradores ni pruebas automatizadas (JUnit). Esto nos permitirá familiarizarnos con el análisis y la validación básica del comportamiento de un programa.
@@ -26,4 +22,3 @@ Finalmente, una vez realizados estos sencillos pasos, te darás cuenta de que ha
 
 ---
 
-Espero que esta versión sea de tu agrado. ¿Hay algo más en lo que pueda ayudarte?
