@@ -37,12 +37,16 @@ Además, el sistema debe ser capaz de generar informes sobre:
    - Un **👤 cliente** realiza una o varias **📅 reservas**.  
    - Una **📅 reserva** está asociada a un **🚗 vehículo** y una **🏢 sucursal**.  
    - Un **👨‍💼 empleado** gestiona las reservas en una **🏢 sucursal**.  
-
-### 3. **✨ Ampliación del Sistema**  
+### 3. 💻 Implementación en MySQL
+     Una vez definido el modelo conceptual, implementen el modelo relacional en MySQL. Incluyan:
+     Scripts de creación de tablas.
+     Inserción de datos de prueba.
+     Consultas SQL para obtener información relevante (por ejemplo, listado de empleados por departamento, puestos vacantes, etc.).
+### 4. **✨ Ampliación del Sistema**  
    Propongan y desarrollen al menos **dos funcionalidades adicionales** que mejoren el sistema. Algunas ideas:  
    - Implementación de **vistas** para simplificar consultas frecuentes.  
    - Creación de **triggers** para actualizar automáticamente el estado de los vehículos después de una reserva.  
    - Generación de informes de ingresos mensuales por sucursal.  
 
-### 4. **📝 Documentación**  
+### 5. **📝 Documentación**  
   📝 Documentación Deberan Elaborar un informe técnico, tienen las instrucciones en el readme de la carpeta
