@@ -1,5 +1,4 @@
 # 📂 Proyectos de la Base de Datos
-
 ¡Bienvenidos al repositorio de **Proyectos de la Base de Datos**! 🎉 Este espacio está diseñado para que desarrollen sus proyectos de implementación de bases de datos, siguiendo un enunciado proporcionado y documentando todo el proceso en un informe estructurado. 
 ---
 ## 📋 Descripción de la carpeta PROYECTOS DE BASES DE DATOS
@@ -42,5 +41,37 @@ Esta carpeta contiene:
      -b modelo-conceptual
      -b implementacion
      -b consultas
-  
-   
+--
+## 📝 Estructura del Informe
+El informe debe seguir la siguiente estructura:
+1. **📑 Portada**
+2. **📑 Índice**
+3. **📑 Introducción**
+4. **📑 Análisis del Enunciado**
+5. **📑 Modelo Conceptual**
+6. **📑 Modelo Relacional**
+7. **📑 Implementación en MySQL**
+8. **📑 Consultas Propuestas**
+9. **📑 Ampliación de la Base de Datos**
+10. **📑 Vistas y Triggers**
+11. **📑 Pruebas y Validación**
+12. **📑 Conclusiones**
+13. **📑 Anexos**
+---
+## 🔗 Recursos Adicionales
+
+- [📚 Documentación oficial de MySQL](https://dev.mysql.com/doc/)
+- [📝 Guía de Markdown](https://www.markdownguide.org/)
+- [🛠️ Tutorial de Git y GitHub](https://guides.github.com/)
+---
+## 📊 Evaluación
+
+El proyecto será evaluado en base a:
+1. **✅ Calidad del diseño conceptual y relacional.**
+2. **✅ Correcta implementación en MySQL.**
+3. **✅ Ampliación creativa y funcional de la base de datos.**
+4. **✅ Calidad y claridad del informe.**
+5. **✅ Uso adecuado de vistas y triggers.**
+6. **✅ Manejo de Git (commits, ramas, PR).**
+7. **✅ Cumplimiento de plazos.**
+---
