@@ -45,5 +45,4 @@ Además, el sistema debe ser capaz de generar informes sobre:
    - Generación de informes de ingresos mensuales por sucursal.  
 
 ### 4. **📝 Documentación**  
-   Elaboren un **informe técnico** según lo que se solicita en el readme
-   ----
+  📝 Documentación Deberan Elaborar un informe técnico, tienen las instrucciones en el readme de la carpeta
