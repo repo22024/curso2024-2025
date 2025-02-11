@@ -38,12 +38,12 @@ Además, el sistema debe ser capaz de generar informes sobre:
    - Una **📅 reserva** está asociada a un **🚗 vehículo** y una **🏢 sucursal**.  
    - Un **👨‍💼 empleado** gestiona las reservas en una **🏢 sucursal**.  
 
-### 5. **✨ Ampliación del Sistema**  
+### 3. **✨ Ampliación del Sistema**  
    Propongan y desarrollen al menos **dos funcionalidades adicionales** que mejoren el sistema. Algunas ideas:  
    - Implementación de **vistas** para simplificar consultas frecuentes.  
    - Creación de **triggers** para actualizar automáticamente el estado de los vehículos después de una reserva.  
    - Generación de informes de ingresos mensuales por sucursal.  
 
-### 6. **📝 Documentación**  
+### 4. **📝 Documentación**  
    Elaboren un **informe técnico** según lo que se solicita en el readme
    ----
