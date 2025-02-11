@@ -1,5 +1,5 @@
 # 📂 Proyectos de la Base de Datos
-¡Bienvenidos al repositorio de **Proyectos de la Base de Datos**! 🎉 Este espacio está diseñado para que desarrollen sus proyectos de implementación de bases de datos, siguiendo un enunciado proporcionado y documentando todo el proceso en un informe estructurado. 
+¡Bienvenidos a la carpeta de **Proyectos de la Base de Datos**! 🎉 Este espacio está diseñado para que desarrollen sus proyectos de implementación de bases de datos, siguiendo un enunciado proporcionado y documentando todo el proceso en un informe estructurado. 
 ---
 ## 📋 Descripción de la carpeta PROYECTOS DE BASES DE DATOS
 
