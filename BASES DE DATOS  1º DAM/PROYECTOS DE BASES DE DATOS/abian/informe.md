@@ -10,18 +10,6 @@
 
 ### 1. Creación de tablas
 
-## 5. Modelo conceptual
-
-![Modelo conceptual](./capturas/modelo.conceptual.png)
-
-## 6. Modelo relacional
-
-![Modelo relacional](./capturas/modelo.relacional.png)
-
-## 7. Implementación en MySQL
-
-### 1. Creación de tablas
-
 ```sql
 -- MySQL Workbench Forward Engineering
 
@@ -147,7 +135,8 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 ### 2. Inserción de datos de prueba
 
-#### Primer paso, seleccionar la base de datos correspondiente
+#### Seleccionar la base de datos correspondiente
+
 ``` sql
 Use carrentalx;
 ```
