@@ -86,7 +86,7 @@ CREATE TABLE IF NOT EXISTS `CarRentalX`.`reservas` (
   `costeTotal` DOUBLE NOT NULL,
   `fechaInicioReserva` DATETIME NOT NULL,
   `fechaFinReserva` DATETIME NOT NULL,
-  `estado` ENUM("pendiemte", "enCurso", "finalizado", "anulado") NOT NULL,
+  `estado` ENUM("pendiente", "enCurso", "finalizado", "anulado") NOT NULL,
   `clientes_idClientes` INT NOT NULL,
   `vehiculos_idVehiculos` INT NOT NULL,
   `vehiculos_idSucursal` INT NOT NULL,
