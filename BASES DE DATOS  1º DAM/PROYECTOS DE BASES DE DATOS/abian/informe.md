@@ -1,6 +1,6 @@
 ## 5. Modelo conceptual
 
-![Modelo conceptual](./capturas/modelo.conceptual.drawio.png)
+![Modelo conceptual](./capturas/modelo.conceptual.png)
 
 ## 6. Modelo relacional
 
@@ -8,7 +8,7 @@
 
 ## 7. Implementación en MySQL
 
-## 1. Creación de tablas
+### 1. Creación de tablas
 
 -- MySQL Workbench Forward Engineering
 
