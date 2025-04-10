@@ -209,6 +209,7 @@ VALUES
 ```
 
 ## 8. Consultas propuestas
+
 USE carrentalx;
 ### 1. Listar todos los clientes con su información personal.
 SELECT * 
