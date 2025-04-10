@@ -10,6 +10,7 @@
 
 ### 1. Creación de tablas
 
+```sql
 -- MySQL Workbench Synchronization
 -- Generated: 2025-04-10 16:58
 -- Model: New Model
@@ -106,6 +107,7 @@ DEFAULT CHARACTER SET = utf8;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+```
 
 
 ### 2. Inserción de datos de prueba
