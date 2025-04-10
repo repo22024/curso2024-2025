@@ -107,12 +107,13 @@ DEFAULT CHARACTER SET = utf8;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
-```
+
 
 
 ### 2. Inserción de datos de prueba
 
-#### Primer paso, seleccionar la base de datos correspondiente
+#### Seleccionar la base de datos correspondiente
+
 ``` sql
 Use carrentalx;
 ```
@@ -164,7 +165,11 @@ INSERT INTO reservas
 
 VALUES  
 
-(DEFAULT, 150.0, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1), 
+(DEFAULT, 150.0, '2025-03-10 10:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1),
+
+(DEFAULT, 220.0, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1),
+
+(DEFAULT, 220.0, '2025-03-10 12:00:00', '2025-03-12 10:00:00', 'pendiente', 1, 1, 1), 
 
 (DEFAULT, 200.5, '2025-03-15 12:00:00', '2025-03-18 12:00:00', 'enCurso', 2, 2, 2), 
 
