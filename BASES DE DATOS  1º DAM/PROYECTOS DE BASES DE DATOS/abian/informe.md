@@ -74,3 +74,7 @@ La información se encuentra dispersa, dificultando la visibilidad global de la 
 
   - 💰 **Ingresos mensuales por sucursal**  
     Información financiera clave para la toma de decisiones.
+
+# 6. Modelo relacional
+
+![Modelo relacional](./capturas/modelo.relacional.png)
