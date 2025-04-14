@@ -74,3 +74,7 @@ La información se encuentra dispersa, dificultando la visibilidad global de la 
 
   - 💰 **Ingresos mensuales por sucursal**  
     Información financiera clave para la toma de decisiones.
+
+# 5. Modelo conceptual
+
+![Modelo conceptual](./capturas/modelo.conceptual.png)
