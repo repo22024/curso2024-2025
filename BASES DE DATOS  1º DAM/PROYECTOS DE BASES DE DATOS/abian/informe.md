@@ -86,7 +86,7 @@ La información se encuentra dispersa, dificultando la visibilidad global de la 
 
  # 7. Implementación en MySQL
 
-## 1. Creación de tablas
+## Creación de tablas
 
 ```sql
 -- MySQL Workbench Synchronization
@@ -192,7 +192,7 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 
 ```
 
-# 2. Inserción de datos de prueba
+# Inserción de datos de prueba
 
 ## Insertar datos de clientes
 ``` sql
