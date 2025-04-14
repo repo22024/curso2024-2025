@@ -74,6 +74,14 @@ La información se encuentra dispersa, dificultando la visibilidad global de la 
 
   - 💰 **Ingresos mensuales por sucursal**  
     Información financiera clave para la toma de decisiones.
+    
+# 5. Modelo conceptual
+
+![Modelo conceptual](./capturas/modelo.conceptual.png)
+
+# 6. Modelo relacional
+
+![Modelo relacional](./capturas/modelo.relacional.png)
 
 
  # 7. Implementación en MySQL
@@ -256,3 +264,5 @@ VALUES
 
 (DEFAULT, 'Recepcionista', 'Lucía', 'Sánchez', 'lucia.sanchez@gmail.com', 633445566, 3) 
 ```
+
+
